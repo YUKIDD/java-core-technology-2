@@ -2,19 +2,11 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true" procOnly="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useProcessorModulePath="true">
-          <entry name="$PROJECT_DIR$" />
-        </processorPath>
         <module name="java-core-technology-2" />
-      </profile>
-      <profile name="ToStringProcessor" enabled="true">
-        <processorPath useClasspath="false" useProcessorModulePath="true">
-          <entry name="org.example.chap08.sourceAnnotations.ToStringAnnotationProcessor" />
-        </processorPath>
       </profile>
     </annotationProcessing>
   </component>
